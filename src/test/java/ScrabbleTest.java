@@ -6,7 +6,7 @@ public class ScrabbleTest {
   @Test
   public void calculateScore_returnsScoreForSingleLetter_1() {
     Scrabble testScrabble = new Scrabble();
-    Integer expected = 1;
+    Integer expected = 2;
     assertEquals(expected, testScrabble.calculateScore('A'));
   }
 }
